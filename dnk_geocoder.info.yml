@@ -1,0 +1,7 @@
+name: Dnk Geocoder
+type: module
+description: 'Provides a adresse.data.gouv.fr geocoder plugin for geolocation leaflet.'
+core: 8.x
+package: dnk
+dependencies:
+  - geolocation:geolocation_leaflet

@@ -1,0 +1,8 @@
+# AdresseDataGouvFr geocoder function.
+geocoder.adresse_data_gouv_fr:
+  version: 8.x-2.x
+  js:
+    js/adresse-geocoder.js: {}
+  dependencies:
+  - core/jquery.once
+  - geolocation/geolocation.geocoder.api

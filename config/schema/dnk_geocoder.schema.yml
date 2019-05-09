@@ -1,0 +1,7 @@
+geolocation.geocoder.adresse_data_gouv_fr:
+  type: geolocation_geocoder
+  label: 'adresse.data.gouv.fr geocoder'
+  mapping:
+    location_priority:
+      type: geolocation.element.input
+      label: 'Location Priority'
